@@ -1,0 +1,19 @@
+{
+    "name": "jhonattan/web-crawler",
+    "autoload": {
+        "psr-4": {
+            "Jhonattan\\WebCrawler\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jhondev123",
+            "email": "jhonattan.curtarelli@outlook.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "symfony/dom-crawler": "^7.1",
+        "symfony/css-selector": "^7.1"
+    }
+}
